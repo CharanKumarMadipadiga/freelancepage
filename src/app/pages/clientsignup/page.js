@@ -1,11 +1,10 @@
 "use client"
 
-import Link from "next/link";
 import React from 'react'
-
+import Link from 'next/link'
 import './page.css'
 
-const SignUp = () => {
+const ClientSignUp = () => {
 
   const onSubmitSignUpForm=(event)=>{
     event.preventDefault()
@@ -15,7 +14,7 @@ const SignUp = () => {
     <div className='signup-container'>
       <form className='signup-card' onSubmit={onSubmitSignUpForm}>
         <img src='https://static.wixstatic.com/media/e238b5_23a3e5e846dd4a19a47678f9c377c054~mv2.jpeg/v1/fill/w_349,h_98,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Header%20logo.jpeg' className='signup-logo' alt='login logo'/>
-        <h1 className='signup-desktop-heading'>Signup to be an autonomous professional</h1>
+        <h1 className='signup-desktop-heading'>Signup to hire autonomous professionals</h1>
         <h1 className="signup-heading-mobile">Signup to be a professional</h1>
         <input type="text" className='signup-input-El' required placeholder='First Name'/>
         <input type="text" className='signup-input-El' required placeholder='Last Name'/>
@@ -43,4 +42,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default ClientSignUp

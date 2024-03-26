@@ -89,6 +89,12 @@
     margin-bottom: 15px;
 }
 
+.login-page-btn:hover {
+    font-weight: 600;
+    font-size: 17px;
+    background-color: grey;
+}
+
 .or-con {
     display: flex;
     width: 80%;
@@ -134,8 +140,8 @@
 
 .google-container:hover {
     background-color: lightblue;
-    
 }
+
 
 
 .google-img {
@@ -148,7 +154,10 @@
     color: #000000;
     font-family: "Roboto";
     font-size: 13px;
+}
 
+.google-text:hover {
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
@@ -197,6 +206,11 @@
     color: #03007F;
     font-weight: 500;
     cursor: pointer;
+}
+
+.span-El-login:hover {
+    font-size: 17px;
+    font-weight: 600;
 }
 
 

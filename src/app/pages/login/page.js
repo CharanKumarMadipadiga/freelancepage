@@ -30,7 +30,7 @@ const Login = () => {
           <p className='google-text'>Login in with Google</p>
         </div>
         <p className='no-account'>No account?</p>
-        <p className='freelancer-text'>Join Autonopros as a <Link href="#" className='span-El-login'>freelancer</Link> or <Link href="#" className='span-El-login'>client</Link></p>
+        <p className='freelancer-text'>Join Autonopros as a <Link href="/pages/signup" className='span-El-login'>freelancer</Link> or <Link href="/pages/clientsignup" className='span-El-login'>client</Link></p>
       </form>
     </div>
   )
